@@ -24,3 +24,8 @@ int LPS(string &s,int i,int  j,vector<vector<int>> &dp){
             return dp[i][j]=max(left,right);
         }
 }
+
+// Second method
+// Logic -> Longest Palindromic subsequence length  nothing but the longest common subsequence length of string s and reverse of s
+
+// implement the code of finding the lcs
